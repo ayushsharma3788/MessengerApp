@@ -1,0 +1,70 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome
+
+## exception
+
+DartDevelopmentServiceException: DartDevelopmentServiceException: Failed to start Dart Development Service
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.38.7, on Microsoft Windows [Version
+    10.0.26100.7171], locale en-IN) [1,502ms]
+    [32m•[39m Flutter version 3.38.7 on channel stable at C:\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision 3b62efc2a3 (9 days ago), 2026-01-13 13:47:42 -0800
+    [32m•[39m Engine revision 78fc3012e4
+    [32m•[39m Dart version 3.10.7
+    [32m•[39m DevTools version 2.51.1
+    [32m•[39m Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop,
+      enable-windows-desktop, enable-android, enable-ios, cli-animations,
+      enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
+
+[32m[✓][39m Windows Version (Windows 11 or higher, 24H2, 2009) [3.3s]
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version 36.1.0)
+    [3.9s]
+    [32m•[39m Android SDK at C:\Users\DELL\AppData\Local\Android\sdk
+    [32m•[39m Emulator version 36.3.10.0 (build_id 14472402) (CL:N/A)
+    [31m✗[39m cmdline-tools component is missing.
+      Try installing or updating Android Studio.
+      Alternatively, download the tools from
+      https://developer.android.com/studio#command-line-tools-only and make sure
+      to set the ANDROID_HOME environment variable.
+      See https://developer.android.com/studio/command-line for more details.
+    [31m✗[39m Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/to/windows-android-setup for more details.
+
+[32m[✓][39m Chrome - develop for the web [839ms]
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[33m[!][39m Visual Studio - develop Windows apps (Visual Studio Build Tools 2019
+    16.11.49) [838ms]
+    [32m•[39m Visual Studio at C:\Program Files (x86)\Microsoft Visual
+      Studio\2019\BuildTools
+    [32m•[39m Visual Studio Build Tools 2019 version 16.11.36227.6
+    [31m✗[39m The current Visual Studio installation is incomplete.
+      Please use Visual Studio Installer to complete the installation or
+      reinstall Visual Studio.
+
+[32m[✓][39m Connected device (3 available) [382ms]
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version
+      10.0.26100.7171]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome
+      143.0.7499.193
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge
+      144.0.3719.82
+
+[32m[✓][39m Network resources [534ms]
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 2 categories.
+```
